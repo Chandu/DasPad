@@ -136,6 +136,7 @@
     <Compile Include="YangshunSpecs\DpSpecs\KnightDialerSpecs.cs" />
     <Compile Include="YangshunSpecs\DpSpecs\MinCostClimbingStairsSpecs.cs" />
     <Compile Include="YangshunSpecs\DpSpecs\MinimumCostForTicketsSpecs.cs" />
+    <Compile Include="YangshunSpecs\DpSpecs\TargetSumSpecs.cs" />
     <Compile Include="YangshunSpecs\DpSpecs\TribonacciSeriesSpecs.cs" />
   </ItemGroup>
   <ItemGroup>
