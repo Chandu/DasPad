@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DasPad", "DasPad\DasPad.csproj", "{A5F8DEE3-A2AB-4DE4-ABE0-5CEF51803E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DasPad.Specs", "DasPad.Specs\DasPad.Specs.csproj", "{4E4FB337-0AFC-46F7-8F14-06A8F58BAE3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5F8DEE3-A2AB-4DE4-ABE0-5CEF51803E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F8DEE3-A2AB-4DE4-ABE0-5CEF51803E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F8DEE3-A2AB-4DE4-ABE0-5CEF51803E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F8DEE3-A2AB-4DE4-ABE0-5CEF51803E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E4FB337-0AFC-46F7-8F14-06A8F58BAE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4FB337-0AFC-46F7-8F14-06A8F58BAE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4FB337-0AFC-46F7-8F14-06A8F58BAE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4FB337-0AFC-46F7-8F14-06A8F58BAE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A33DD576-3423-420A-B597-EC69DBB3F069}
+	EndGlobalSection
+EndGlobal
