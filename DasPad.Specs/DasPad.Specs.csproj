@@ -78,6 +78,13 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\SingleNumberSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\TwoSumSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\ValidSudokuSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\CountAndSaySpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\LongestCommonPrefixSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\ReverseStringSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\StringToIntegerSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\StrStrSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\ValidAnagramSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\ValidPalindromeSpecs.cs" />
     <Compile Include="LeetCodeSpecs\AllSubsetsSpecs.cs" />
     <Compile Include="LeetCodeSpecs\ArrayAppearNThridTimesSpecs.cs" />
     <Compile Include="LeetCodeSpecs\ArrayProductExceptCurrentSpecs.cs" />
