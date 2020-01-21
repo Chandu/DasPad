@@ -93,6 +93,15 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\StrStrSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\ValidAnagramSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\ValidPalindromeSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\BinaryTreeLevelOrderTraversalSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\SortedArrayToBinarySearchTreeSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\SymmetricTreeSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\ArrayExtensions.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\CodecSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\MaximumDepthOfBinaryTreeSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\TreeNode.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\TreeNodeExtensionsSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\ValidateBinarySearchTreeSpecs.cs" />
     <Compile Include="LeetCodeSpecs\AllSubsetsSpecs.cs" />
     <Compile Include="LeetCodeSpecs\ArrayAppearNThridTimesSpecs.cs" />
     <Compile Include="LeetCodeSpecs\ArrayProductExceptCurrentSpecs.cs" />
