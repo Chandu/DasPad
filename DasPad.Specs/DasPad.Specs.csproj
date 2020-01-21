@@ -78,6 +78,14 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\SingleNumberSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\TwoSumSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\ValidSudokuSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\ArrayExtensions.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\DeleteLinkedListNode.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\LinkedListCycleSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\ListNode.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\MergeTwoSortedListsSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\PalindromeLinkedListSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\RemoveNthNodeFromEndSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\ReverseLinkedListSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\CountAndSaySpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\LongestCommonPrefixSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\ReverseStringSpecs.cs" />
