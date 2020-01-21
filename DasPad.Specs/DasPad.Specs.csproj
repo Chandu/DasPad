@@ -86,6 +86,8 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\PalindromeLinkedListSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\RemoveNthNodeFromEndSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\ReverseLinkedListSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\SortSearchSpecs\FirstBadVersionSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\SortSearchSpecs\MergeSortedArraySpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\CountAndSaySpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\LongestCommonPrefixSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\ReverseStringSpecs.cs" />
