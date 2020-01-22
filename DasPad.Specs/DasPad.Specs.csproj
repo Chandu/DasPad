@@ -96,6 +96,12 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\MathSpecs\FizzBuzzSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\MathSpecs\IsPowerOfThreeSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\MathSpecs\RomanIntegerSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\OthersSpecs\HammingDistanceSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\OthersSpecs\MissingNumberSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\OthersSpecs\NumberOf1BitsSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\OthersSpecs\PascalsTriangleSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\OthersSpecs\ReverseBitsSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\OthersSpecs\ValidParanthesesSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\SortSearchSpecs\FirstBadVersionSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\SortSearchSpecs\MergeSortedArraySpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\CountAndSaySpecs.cs" />
