@@ -13,7 +13,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
       Output: 1->1->2->3->4->4
      */
 
-    //TODO: (CV) TIP: Simple Lists recursive solution
+    //TIP: Simple Lists recursive solution
     public ListNode MergeTwoListsRecursive(ListNode l1, ListNode l2)
     {
       if (l1 == null)
@@ -38,7 +38,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
       }
     }
 
-    //TODO: (CV) TIP: Simple Lists iterative solution, use a thrid pointer for current el in the sorted list instead of switching between l1 & l2.
+    //TIP: Simple Lists iterative solution, use a thrid pointer for current el in the sorted list instead of switching between l1 & l2.
     public ListNode MergeTwoLists(ListNode l1, ListNode l2)
     {
       var toReturn = new ListNode(0);

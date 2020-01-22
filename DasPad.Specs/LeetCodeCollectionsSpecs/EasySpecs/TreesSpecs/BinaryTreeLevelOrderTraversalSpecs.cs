@@ -24,7 +24,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.TreesSpecs
         ]
      */
 
-    //TODO: (CV) TIP This is the logic to identify the level of node in QUEUE while BFS of TREE.
+    //TIP This is the logic to identify the level of node in QUEUE while BFS of TREE.
     //Level is equal to the number of items in the queue.
     public IList<IList<int>> LevelOrder(TreeNode root)
     {

@@ -48,7 +48,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.TreesSpecs
     //  }
     //}
 
-    //TODO: (CV) TIP - A better approach (optimized for space and time) without using stack
+    //TIP - A better approach (optimized for space and time) without using stack
     public bool IsValidBST(TreeNode root)
     {
       return IsValidBST(root, long.MinValue, long.MaxValue);

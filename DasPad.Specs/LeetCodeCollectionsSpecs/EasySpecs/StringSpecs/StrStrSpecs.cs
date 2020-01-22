@@ -33,7 +33,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.StringSpecs
 
       var n = haystack.Length;
       var k = needle.Length;
-      //Tip: Nice use of n-k instead of my initial thought of doing it in the inner for loop
+      //TIP: Nice use of n-k instead of my initial thought of doing it in the inner for loop
       for (int i = 0; i <= n - k; i++)
       {
         var isFound = true;

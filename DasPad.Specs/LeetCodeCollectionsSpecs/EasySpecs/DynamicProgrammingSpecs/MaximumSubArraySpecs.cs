@@ -24,7 +24,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.DynamicProgrammingSpec
       return MaxSubArrayUsingDivideAndConquer(nums);
     }
 
-    //TODO: (CV) TIP Using Divide and Conquer with nLogn T for MaxSubArray
+    //TIP Using Divide and Conquer with nLogn T for MaxSubArray
     /*
      *  1) Divide the given array in two halves
         2) Return the maximum of following three

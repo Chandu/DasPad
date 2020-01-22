@@ -21,7 +21,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.SortSearchSpecs
         Output: [1,2,2,3,5,6]
      */
 
-    //TODO: (CV) TIP Better to use/fill an array like structure from the end if it's partially filled from the beginning.
+    //TIP Better to use/fill an array like structure from the end if it's partially filled from the beginning.
     public void Merge(int[] nums1, int m, int[] nums2, int n)
     {
       int tail1 = m - 1, tail2 = n - 1, finished = m + n - 1;

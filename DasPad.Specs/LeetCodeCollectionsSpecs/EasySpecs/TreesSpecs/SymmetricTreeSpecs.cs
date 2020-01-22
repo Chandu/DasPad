@@ -29,7 +29,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.TreesSpecs
         Bonus points if you could solve it both recursively and iteratively.
      **/
 
-    //TODO: (CV) TIP A Simple Recursive Version
+    //TIP A Simple Recursive Version
     public bool IsSymmetric(TreeNode root) =>
         root == null || IsSymmetric(root.left, root.right);
 
@@ -42,7 +42,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.TreesSpecs
             IsSymmetric(L.right, R.left)
         );
 
-    //TODO: (CV) TIP Simple but effective Iterative way to check if tree is Symmetric.
+    //TIP Simple but effective Iterative way to check if tree is Symmetric.
     private bool IsSymmetricIterative(TreeNode root)
     {
       var q = new Queue<TreeNode>();

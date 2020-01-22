@@ -24,7 +24,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.DynamicProgrammingSpec
       Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).
                    Total amount you can rob = 2 + 9 + 1 = 12.
      */
-    //TODO: (CV) TIP NIce article on DP: https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.
+    //TIP NIce article on DP: https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.
 
     //TODO: (CV) This is DP Bottom Up without a DP Array
     public int Rob(int[] nums)

@@ -21,14 +21,14 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
       Could you do it in O(n) time and O(1) space?
      */
 
-    //TODO: (CV) TIP Better appraoch without additional space using mid of linked list and then reversing the other half.
+    //TIP Better appraoch without additional space using mid of linked list and then reversing the other half.
     public bool IsPalindrome(ListNode head)
     {
       if (head == null || head.next == null)
       {
         return true;
       }
-      //TODO: (CV) TIP Here we are reversing from the next node of Half
+      //TIP Here we are reversing from the next node of Half
       var halfNode = GetHalfOf(head.next);
       var reversed = Reverse(halfNode);
       while (reversed != null)

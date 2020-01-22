@@ -27,7 +27,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.OthersSpecs
 
     internal static int MissingNumberUsingMath(int[] nums)
     {
-      //TODO: (CV) Tip: Summation Series formula is n(n+1)/2. So if the sum of array equals n(n+1)/2 then missing is 0. Else it is n(n+1)/2 - Sum of Array
+      //TIP: Summation Series formula is n(n+1)/2. So if the sum of array equals n(n+1)/2 then missing is 0. Else it is n(n+1)/2 - Sum of Array
 
       var sumOfArray = 0;
       int expectedSum = nums.Length * (nums.Length + 1) / 2;
