@@ -92,6 +92,10 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\PalindromeLinkedListSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\RemoveNthNodeFromEndSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\ReverseLinkedListSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\MathSpecs\CountPrimesSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\MathSpecs\FizzBuzzSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\MathSpecs\IsPowerOfThreeSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\MathSpecs\RomanIntegerSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\SortSearchSpecs\FirstBadVersionSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\SortSearchSpecs\MergeSortedArraySpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\StringSpecs\CountAndSaySpecs.cs" />
