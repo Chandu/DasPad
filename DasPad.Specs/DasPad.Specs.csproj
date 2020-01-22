@@ -67,6 +67,8 @@
     <Compile Include="HackerRankSpecs\LeftRoateSpecs.cs" />
     <Compile Include="HackerRankSpecs\QueenPlacementSpecs.cs" />
     <Compile Include="HackerRankSpecs\ReverseArraySpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\BestTimeToBuyAndSellStockSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\ClimbingStairsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\BuySellStockIISpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\ContainsDuplicateSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\IntersectionOfTwoArraysIISpecs.cs" />
@@ -78,6 +80,8 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\SingleNumberSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\TwoSumSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\ValidSudokuSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\HouseRobberSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\MaximumSubArraySpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\ArrayExtensions.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\DeleteLinkedListNode.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\LinkedListCycleSpecs.cs" />
