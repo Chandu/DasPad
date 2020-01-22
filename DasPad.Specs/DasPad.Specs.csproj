@@ -67,6 +67,8 @@
     <Compile Include="HackerRankSpecs\LeftRoateSpecs.cs" />
     <Compile Include="HackerRankSpecs\QueenPlacementSpecs.cs" />
     <Compile Include="HackerRankSpecs\ReverseArraySpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DesignSpecs\MinStackSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DesignSpecs\ShuffleAnArraySpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\BestTimeToBuyAndSellStockSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\ClimbingStairsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\BuySellStockIISpecs.cs" />
