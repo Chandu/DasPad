@@ -120,6 +120,13 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\TreeNode.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\TreeNodeExtensionsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\ValidateBinarySearchTreeSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\GroupAnagramsSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\IncreasingTripletSubsequenceSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\LongestPalindromicSubstringSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\LongestSubstringWithoutRepeatingCharactersSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\MissingRangesSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\SetMatrixZeroesSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\ThreeSumSpecs.cs" />
     <Compile Include="LeetCodeSpecs\AllSubsetsSpecs.cs" />
     <Compile Include="LeetCodeSpecs\ArrayAppearNThridTimesSpecs.cs" />
     <Compile Include="LeetCodeSpecs\ArrayProductExceptCurrentSpecs.cs" />
@@ -169,6 +176,7 @@
     <Compile Include="LeetCodeSpecs\TotalFruitSpecs.cs" />
     <Compile Include="LeetCodeSpecs\InvalidTransactionsSpecs.cs" />
     <Compile Include="LeetCodeSpecs\VowelSpellcheckerSpecs.cs" />
+    <Compile Include="Structures\Trie.cs" />
     <Compile Include="UberSpecs\MyQueueSpecs.cs" />
     <Compile Include="LeetCodeSpecs\IsStringMadeOfSubstringsSpecs.cs" />
     <Compile Include="MiscSpecs.cs" />
