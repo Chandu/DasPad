@@ -80,7 +80,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
     [InlineData("1, 2, 5", "2,3,4", "1, 2, 2, 3, 4, 5")]
     public void CanMergeTwoLists(string first, string second, string expected)
     {
-      Assert.Equal(expected, MergeTwoLists(first.ToListNode(), second.ToListNode()).AsString());
+      Assert.Equal(expected, MergeTwoLists(first.AsListNode(), second.AsListNode()).AsString());
     }
   }
 }

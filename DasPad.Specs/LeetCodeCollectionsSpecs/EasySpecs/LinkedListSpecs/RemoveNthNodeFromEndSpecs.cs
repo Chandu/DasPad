@@ -55,7 +55,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
     [InlineData("1,2,3,4,5", 5, "2, 3, 4, 5")]
     public void CanRemoveNthNodeFromEnd(string nodes, int n, string expected)
     {
-      Assert.Equal(expected, RemoveNthFromEnd(nodes.ToListNode(), n).AsString());
+      Assert.Equal(expected, RemoveNthFromEnd(nodes.AsListNode(), n).AsString());
     }
   }
 }

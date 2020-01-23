@@ -29,7 +29,7 @@ namespace DasPad.Specs.Models
       return listNode;
     }
 
-    public static ListNode ToListNode(this string input, bool createCycles = false)
+    public static ListNode AsListNode(this string input, bool createCycles = false)
     {
       return input.Split(',').Select(a => Int32.Parse(a)).ToListNode(createCycles);
     }

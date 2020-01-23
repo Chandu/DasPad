@@ -60,7 +60,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
     [InlineData("1,2,3,4,2", true)]
     public void CanVerifyHasCycle(string input, bool expected)
     {
-      Assert.Equal(expected, HasCycle(input.ToListNode(true)));
+      Assert.Equal(expected, HasCycle(input.AsListNode(true)));
     }
   }
 }

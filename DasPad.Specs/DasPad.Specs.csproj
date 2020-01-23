@@ -84,6 +84,8 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\ValidSudokuSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\HouseRobberSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\MaximumSubArraySpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\LinkedListSpecs\IntersectionOfLinkedListsSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\LinkedListSpecs\OddEvenLinkedListSpecs.cs" />
     <Compile Include="Models\ListNodeArrayExtensions.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\DeleteLinkedListNode.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\LinkedListCycleSpecs.cs" />

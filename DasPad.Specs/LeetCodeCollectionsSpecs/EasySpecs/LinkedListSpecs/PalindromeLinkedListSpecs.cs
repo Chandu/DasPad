@@ -109,8 +109,8 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
     [InlineData("0,0", true)]
     public void CanVerifyIsPalindrome(string input, bool expected)
     {
-      Assert.Equal(expected, IsPalindromeUsingStack(input.ToListNode()));
-      Assert.Equal(expected, IsPalindrome(input.ToListNode()));
+      Assert.Equal(expected, IsPalindromeUsingStack(input.AsListNode()));
+      Assert.Equal(expected, IsPalindrome(input.AsListNode()));
     }
   }
 }
