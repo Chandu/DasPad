@@ -123,7 +123,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.TreesSpecs
     [InlineData("1,2,2,2,null,2", false)]
     public void CanVerifyIsSymmetric(string tree, bool expected)
     {
-      Assert.Equal(expected, IsSymmetric(tree.ToTreeNode()));
+      Assert.Equal(expected, IsSymmetric(tree.AsTreeNode()));
     }
   }
 }

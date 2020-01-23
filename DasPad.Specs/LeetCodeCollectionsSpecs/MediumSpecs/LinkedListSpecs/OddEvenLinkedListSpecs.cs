@@ -26,6 +26,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.MediumSpecs.LinkedListSpecs
      */
 
     //Revisit:
+    //Note: Here intersction is for same instance of node not just the value otherwise in the above example (first) the interscetion node would have been 1,8,4,5. I misunderstood that initially and was going ina  wrong direction.
     public ListNode OddEvenList(ListNode head)
     {
       if (head == null || head.next == null)

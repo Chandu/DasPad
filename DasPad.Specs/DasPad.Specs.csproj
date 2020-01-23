@@ -84,8 +84,15 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\ValidSudokuSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\HouseRobberSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\MaximumSubArraySpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\BinaryTreeInorderTraversalSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\LinkedListSpecs\IntersectionOfLinkedListsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\LinkedListSpecs\OddEvenLinkedListSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\BinaryTreeZigzagLevelOrderTraversalSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\ConstructBinaryTreeFromPreorderAndInorderTraversalSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\InOrderSuccessorInBSTSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\KthSmallestElementInABSTSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\NumberOfIslandsSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\PopulatingNextRightPointersInEachNodeSpecs.cs" />
     <Compile Include="Models\ListNodeArrayExtensions.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\DeleteLinkedListNode.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\LinkedListCycleSpecs.cs" />

@@ -9,7 +9,7 @@ namespace DasPad.Specs.Models
   public static class ArrayExtensions
   {
     //TODO: (CV) Important Check this for BST SerDe
-    public static TreeNode ToTreeNode(this string[] values)
+    public static TreeNode AsTreeNode(this string[] values)
     {
       if (values == null || values.Length < 1)
       {
@@ -46,7 +46,7 @@ namespace DasPad.Specs.Models
       return nodes[0];
     }
 
-    public static TreeNode ToTreeNode(this string input)
+    public static TreeNode AsTreeNode(this string input)
     {
       if (input == null || input.Trim().Length < 1)
       {
@@ -63,7 +63,7 @@ namespace DasPad.Specs.Models
         {
           return a.Trim();
         }
-      }).ToArray().ToTreeNode();
+      }).ToArray().AsTreeNode();
     }
 
     public static string AsString(this TreeNode rootNode)

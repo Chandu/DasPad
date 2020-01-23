@@ -42,7 +42,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.TreesSpecs
     [InlineData("3,9,20,null,null,15,7", 3)]
     public void CanFindMaxDepth(string tree, int expected)
     {
-      Assert.Equal(expected, MaxDepth(tree.ToTreeNode()));
+      Assert.Equal(expected, MaxDepth(tree.AsTreeNode()));
     }
   }
 }

@@ -107,7 +107,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.TreesSpecs
     [InlineData("10,5,15,null,null,6,20", false)]
     public void CanVerifyIsValidBST(string tree, bool expected)
     {
-      Assert.Equal(expected, IsValidBST(tree.ToTreeNode()));
+      Assert.Equal(expected, IsValidBST(tree.AsTreeNode()));
     }
   }
 }

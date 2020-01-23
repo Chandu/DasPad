@@ -7,7 +7,7 @@ namespace DasPad.Specs.Models
 {
   public static class ListNodeArrayExtensions
   {
-    public static ListNode ToListNode(this IEnumerable<int> input, bool createCycles = false)
+    public static ListNode AsListNode(this IEnumerable<int> input, bool createCycles = false)
     {
       var nodesMap = new Dictionary<int, ListNode>();
       ListNode listNode = null;
@@ -31,12 +31,12 @@ namespace DasPad.Specs.Models
 
     public static ListNode AsListNode(this string input, bool createCycles = false)
     {
-      return input.Split(',').Select(a => Int32.Parse(a)).ToListNode(createCycles);
+      return input.Split(',').Select(a => Int32.Parse(a)).AsListNode(createCycles);
     }
 
     public static ListNode ArrowedToListNode(this string input)
     {
-      return input.Split(new string[] { "->" }, StringSplitOptions.None).Select(a => Int32.Parse(a)).ToListNode();
+      return input.Split(new string[] { "->" }, StringSplitOptions.None).Select(a => Int32.Parse(a)).AsListNode();
     }
 
     public static string AsString(this ListNode node)
