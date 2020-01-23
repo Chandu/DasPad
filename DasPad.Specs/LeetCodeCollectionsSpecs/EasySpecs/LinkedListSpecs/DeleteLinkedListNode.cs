@@ -1,4 +1,6 @@
-﻿namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
+﻿using DasPad.Specs.Models;
+
+namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
 {
   public class DeleteLinkedListNode
   {

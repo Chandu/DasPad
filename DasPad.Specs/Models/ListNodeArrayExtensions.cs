@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
+namespace DasPad.Specs.Models
 {
-  public static class ArrayExtensions
+  public static class ListNodeArrayExtensions
   {
     public static ListNode ToListNode(this IEnumerable<int> input, bool createCycles = false)
     {

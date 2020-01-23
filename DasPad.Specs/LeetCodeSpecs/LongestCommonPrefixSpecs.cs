@@ -8,11 +8,11 @@ namespace DasPad.Specs.LeetCodeSpecs
   {
     public string LongestCommonPrefix(string[] strs)
     {
-      if(strs.Length == 1)
+      if (strs.Length == 1)
       {
         return strs[0];
       }
-      if(strs.Length < 1)
+      if (strs.Length < 1)
       {
         return "";
       }
@@ -24,7 +24,7 @@ namespace DasPad.Specs.LeetCodeSpecs
       }
       var curCP = new StringBuilder(minLength);
       var curIndex = 0;
-      while(curIndex < minLength)
+      while (curIndex < minLength)
       {
         var ithChar = strs[0][curIndex];
         for (var j = 1; j < strs.Length; j++)
@@ -38,7 +38,6 @@ namespace DasPad.Specs.LeetCodeSpecs
         curIndex++;
       }
       return curCP.ToString();
-
     }
 
     [Fact]

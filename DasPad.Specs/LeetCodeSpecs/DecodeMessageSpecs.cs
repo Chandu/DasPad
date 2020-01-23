@@ -13,24 +13,24 @@ namespace DasPad.Specs.LeetCodeSpecs
 
     public int NumDecodingsHelper(string s, int index, Dictionary<int, int> memo)
     {
-      if(index >= s.Length)
+      if (index >= s.Length)
       {
         return 1;
       }
-      if(s[index] == '0')
+      if (s[index] == '0')
       {
         return 0;
       }
-      if(memo.ContainsKey(index))
+      if (memo.ContainsKey(index))
       {
         return memo[index];
       }
 
       var result = NumDecodingsHelper(s, index + 1, memo);
-      if(index + 1 < s.Length)
+      if (index + 1 < s.Length)
       {
         var val = Int32.Parse(s.Substring(index, 2));
-        if(val < 27)
+        if (val < 27)
         {
           result += NumDecodingsHelper(s, index + 2, memo);
         }

@@ -84,10 +84,10 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\ValidSudokuSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\HouseRobberSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\MaximumSubArraySpecs.cs" />
-    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\ArrayExtensions.cs" />
+    <Compile Include="Models\ListNodeArrayExtensions.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\DeleteLinkedListNode.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\LinkedListCycleSpecs.cs" />
-    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\ListNode.cs" />
+    <Compile Include="Models\ListNode.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\MergeTwoSortedListsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\PalindromeLinkedListSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\RemoveNthNodeFromEndSpecs.cs" />
@@ -114,10 +114,10 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\BinaryTreeLevelOrderTraversalSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\SortedArrayToBinarySearchTreeSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\SymmetricTreeSpecs.cs" />
-    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\ArrayExtensions.cs" />
+    <Compile Include="Models\TreeNodeArrayExtensions.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\CodecSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\MaximumDepthOfBinaryTreeSpecs.cs" />
-    <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\TreeNode.cs" />
+    <Compile Include="Models\TreeNode.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\TreeNodeExtensionsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\TreesSpecs\ValidateBinarySearchTreeSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\GroupAnagramsSpecs.cs" />
@@ -127,6 +127,7 @@
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\MissingRangesSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\SetMatrixZeroesSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\ArraysAndStringsSpecs\ThreeSumSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\LinkedListSpecs\AddTwoNumbersSpecs.cs" />
     <Compile Include="LeetCodeSpecs\AllSubsetsSpecs.cs" />
     <Compile Include="LeetCodeSpecs\ArrayAppearNThridTimesSpecs.cs" />
     <Compile Include="LeetCodeSpecs\ArrayProductExceptCurrentSpecs.cs" />

@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using DasPad.Specs.Models;
+using Xunit;
 
 namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
 {

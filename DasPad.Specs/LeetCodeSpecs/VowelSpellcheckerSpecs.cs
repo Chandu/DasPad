@@ -1,5 +1,5 @@
-﻿using Xunit;
-using System.Linq;
+﻿using System.Linq;
+using Xunit;
 
 namespace DasPad.Specs.LeetCodeSpecs
 {
@@ -7,24 +7,22 @@ namespace DasPad.Specs.LeetCodeSpecs
   {
     public string[] Spellchecker(string[] wordlist, string[] queries)
     {
-      if(!queries.Any())
+      if (!queries.Any())
       {
         return queries;
       }
-      if(!wordlist.Any())
+      if (!wordlist.Any())
       {
         return wordlist;
       }
-      for(var i=0; i< queries.Length; i++)
+      for (var i = 0; i < queries.Length; i++)
       {
         var query = queries[i];
         if (wordlist.Contains(query))
         {
-
         }
       }
       return queries;
-
     }
 
     private static T[] AsArray<T>(params T[] parameters) => parameters;

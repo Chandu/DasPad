@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using Xunit;
 
 namespace DasPad.Specs.LeetCodeSpecs
@@ -59,7 +58,6 @@ namespace DasPad.Specs.LeetCodeSpecs
     public void CanMaxPoints()
     {
       //4
-      var expected = 4;
       var input = new int[][]
       {
         new [] {1, 1},
@@ -69,8 +67,8 @@ namespace DasPad.Specs.LeetCodeSpecs
         new [] {2, 3},
         new [] {1, 4}
       };
-      ////2
-      ///expected = 2;
+      //2
+      //expected = 2;
       //input = new int[][]
       //{
       //  new[] { 0, 0},

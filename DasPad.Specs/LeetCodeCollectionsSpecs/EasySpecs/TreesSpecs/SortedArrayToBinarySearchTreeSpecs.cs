@@ -1,4 +1,5 @@
-﻿using Xunit;
+﻿using DasPad.Specs.Models;
+using Xunit;
 using static DasPad.Specs.Utils;
 
 namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.TreesSpecs

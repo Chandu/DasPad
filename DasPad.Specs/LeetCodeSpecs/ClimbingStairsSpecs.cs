@@ -6,6 +6,7 @@ namespace DasPad.Specs.LeetCodeSpecs
   public class ClimbingStairsSpecs
   {
     public Dictionary<int, int> StepsMemo = new Dictionary<int, int>();
+
     public int ClimbStairs(int n)
     {
       if (n <= 1)
@@ -18,7 +19,7 @@ namespace DasPad.Specs.LeetCodeSpecs
       }
       else
       {
-        if(StepsMemo.ContainsKey(n))
+        if (StepsMemo.ContainsKey(n))
         {
           return StepsMemo[n];
         }
@@ -26,7 +27,6 @@ namespace DasPad.Specs.LeetCodeSpecs
         {
           return StepsMemo[n] = ClimbStairs(n - 1) + ClimbStairs(n - 2);
         }
-          
       }
     }
 

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace HackerEarth
+﻿namespace HackerEarth
 {
   public class HackerEarthApp
   {

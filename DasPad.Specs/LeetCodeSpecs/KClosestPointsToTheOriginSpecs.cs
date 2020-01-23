@@ -39,7 +39,19 @@ namespace DasPad.Specs.LeetCodeSpecs
       }).ToArray();
     }
 
-    public static string ArrayToString(int[][] arr)    {      var toReturn = "";      for (var i = 0; i < arr.Length; i++)      {        for (var j = 0; j < arr[i].Length; j++)        {          toReturn += arr[i][j].ToString() + " ";        }        toReturn += Environment.NewLine;      }      return toReturn;    }
+    public static string ArrayToString(int[][] arr)
+    {
+      var toReturn = "";
+      for (var i = 0; i < arr.Length; i++)
+      {
+        for (var j = 0; j < arr[i].Length; j++)
+        {
+          toReturn += arr[i][j].ToString() + " ";
+        }
+        toReturn += Environment.NewLine;
+      }
+      return toReturn;
+    }
 
     [Fact]
     public void CanKClosest()

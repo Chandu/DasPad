@@ -57,12 +57,12 @@ namespace DasPad.Specs.LeetCodeSpecs
       {
         return b.txn.Amount > 1000 || txns.Any(c =>
         {
-          var hasSameName = c.txn.Name == b.txn.Name;
-          var timeDelta = Math.Abs(b.txn.Time - c.txn.Time);
-          var withinTime = timeDelta <= 60 && timeDelta >= 0;
-          var isDifferentCity = c.txn.City != b.txn.City;
-          return hasSameName && withinTime && isDifferentCity;
-        });
+      var hasSameName = c.txn.Name == b.txn.Name;
+      var timeDelta = Math.Abs(b.txn.Time - c.txn.Time);
+      var withinTime = timeDelta <= 60 && timeDelta >= 0;
+      var isDifferentCity = c.txn.City != b.txn.City;
+      return hasSameName && withinTime && isDifferentCity;
+    });
       }).Select(b => b.a).ToList();
     }
 

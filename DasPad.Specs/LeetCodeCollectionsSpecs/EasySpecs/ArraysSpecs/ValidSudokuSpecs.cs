@@ -55,7 +55,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.ArraysSpecs
         The given board contain only digits 1-9 and the character '.'.
         The given board size is always 9x9.
      */
-     //TODO: (CV) Nice Logic.
+    //TODO: (CV) Nice Logic.
 
     public bool IsValidSudoku(char[][] board)
     {
@@ -93,7 +93,7 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.ArraysSpecs
         new char[] {'.','.','.','4','1','9','.','.','5'},
         new char[] {'.','.','.','.','8','.','.','7','9'}
       };
-      Assert.Equal(false, IsValidSudoku(input));
+      Assert.False(IsValidSudoku(input));
     }
   }
 }

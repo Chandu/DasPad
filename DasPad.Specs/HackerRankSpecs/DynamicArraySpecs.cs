@@ -10,11 +10,11 @@ namespace DasPad.Specs.HackerRankSpecs
     public static List<int> dynamicArray(int n, List<List<int>> queries)
     {
       var nArrays = new List<int>[n];
-      for(var i=0; i< n; i++)
+      for (var i = 0; i < n; i++)
       {
         nArrays[i] = new List<int>();
       }
-      
+
       var toReturn = new List<int>();
       var lastAnswer = 0;
       foreach (var query in queries)
@@ -61,8 +61,7 @@ namespace DasPad.Specs.HackerRankSpecs
         new List<int>() {2, 1, 0},
         new List<int>() {2, 1, 1},
       };
-      Assert.Equal(new List<int>() { 7, 3}, dynamicArray(n, queries));
-      
+      Assert.Equal(new List<int>() { 7, 3 }, dynamicArray(n, queries));
     }
   }
 }

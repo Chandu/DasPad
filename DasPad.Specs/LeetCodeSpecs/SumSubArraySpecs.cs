@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using Xunit;
 
 namespace DasPad.Specs.LeetCodeSpecs
@@ -16,7 +15,7 @@ namespace DasPad.Specs.LeetCodeSpecs
     {
       var subsets = SubArraysMins(nums);
       var toReturn = 0;
-      foreach(var i in subsets)
+      foreach (var i in subsets)
       {
         toReturn += i;
       }

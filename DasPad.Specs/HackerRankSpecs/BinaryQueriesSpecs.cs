@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DasPad.Specs.HackerRankSpecs
+﻿namespace DasPad.Specs.HackerRankSpecs
 {
   public class BinaryQueriesSpecs
   {
-
   }
 }

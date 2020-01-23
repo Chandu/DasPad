@@ -18,7 +18,6 @@ namespace DasPad.Specs.YangshunSpecs.ArraysSpecs
      * Kadane’s Algorithm:
      ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
       Initialize:
           max_so_far = 0
           max_ending_here = 0
@@ -31,10 +30,11 @@ namespace DasPad.Specs.YangshunSpecs.ArraysSpecs
                   max_so_far = max_ending_here
       return max_so_far
      */
+
     public int MaxSubArray(int[] nums)
     {
-      int[] dp = new int[nums.Length]; 
-      int max = nums[0]; 
+      int[] dp = new int[nums.Length];
+      int max = nums[0];
       dp[0] = nums[0];
       for (int i = 1; i < nums.Length; i++)
       {

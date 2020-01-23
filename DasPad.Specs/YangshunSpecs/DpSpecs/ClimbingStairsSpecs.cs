@@ -47,7 +47,6 @@ namespace DasPad.Specs.YangshunSpecs.DpSpecs
         {
           memo[i] = -1;
         }
-        
       }
 
       return ClimbStairsHelper(n - 1, memo);
@@ -63,7 +62,7 @@ namespace DasPad.Specs.YangshunSpecs.DpSpecs
       {
         memo[n] = ClimbStairsHelper(n - 1, memo) + ClimbStairsHelper(n - 2, memo);
       }
-      
+
       return memo[n];
     }
 

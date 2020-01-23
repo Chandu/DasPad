@@ -96,7 +96,7 @@ namespace DasPad.Specs.LeetCodeSpecs
         newGraph.RemoveEdge(edge);
         if (!IsGraphComplete(newGraph))
         {
-          var arr = new[] { edge.Item1, edge.Item2};
+          var arr = new[] { edge.Item1, edge.Item2 };
           Array.Sort(arr);
           points.Add((arr[0], arr[1]));
         }

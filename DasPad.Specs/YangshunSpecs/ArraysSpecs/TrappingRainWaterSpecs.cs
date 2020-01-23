@@ -9,6 +9,7 @@ namespace DasPad.Specs.YangshunSpecs.ArraysSpecs
     /*
      * Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
      */
+
     public int Trap(int[] height)
     {
       int left = 0, right = height.Length - 1;

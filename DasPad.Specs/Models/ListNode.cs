@@ -1,6 +1,6 @@
-﻿namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.LinkedListSpecs
+﻿namespace DasPad.Specs.Models
 {
-  public class ListNode
+    public class ListNode
     {
         public int val;
         public ListNode next;

@@ -22,9 +22,8 @@ namespace DasPad.Specs.LeetCodeSpecs
         graph[i] = new int[N];
       }
 
-        for (int i = 0; i < N; ++i)
+      for (int i = 0; i < N; ++i)
       {
-        
         for (int j = i + 1; j < N; ++j)
           if (stones[i][0] == stones[j][0] || stones[i][1] == stones[j][1])
           {

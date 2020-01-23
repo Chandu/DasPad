@@ -16,7 +16,7 @@ indent_size = 2
 charset = utf-8
 
 # 4 space indentation
-[*.py, *.ts, *.tsx, *.js, *.jsx, *.scss, *.sass, *.svelte]
+[*.py, *.cs, *.ts, *.tsx, *.js, *.jsx, *.scss, *.sass, *.svelte]
 indent_style = space
 indent_size = 2
 

@@ -63,7 +63,6 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.ArraysSpecs
         {
           maxProfit += prices[i] - prices[i - 1];
         }
-          
       }
       return maxProfit;
     }

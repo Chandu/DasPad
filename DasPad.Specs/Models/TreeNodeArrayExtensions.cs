@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.TreesSpecs
+namespace DasPad.Specs.Models
 {
   public static class ArrayExtensions
   {

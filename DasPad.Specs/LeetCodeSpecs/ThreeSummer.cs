@@ -9,7 +9,7 @@ namespace DasPad.Specs.LeetCodeSpecs
     public IList<IList<int>> ThreeSum(int[] nums)
     {
       Array.Sort(nums);
-      var hashSet = new HashSet<(int, int,int)>();
+      var hashSet = new HashSet<(int, int, int)>();
       var length = nums.Length;
       for (var i = 0; i < length; i++)
       {
@@ -51,7 +51,7 @@ namespace DasPad.Specs.LeetCodeSpecs
         }
       }
       var toReturn = new List<IList<int>>();
-      foreach(var s in hashSet)
+      foreach (var s in hashSet)
       {
         toReturn.Add(new List<int>()
         {
@@ -72,7 +72,6 @@ namespace DasPad.Specs.LeetCodeSpecs
       {
         new List<int>() {-1, -1, 2 },
         new List<int>() {-1, 0, 1 },
-        
       };
 
       Assert.Equal(expected, ThreeSum(input));

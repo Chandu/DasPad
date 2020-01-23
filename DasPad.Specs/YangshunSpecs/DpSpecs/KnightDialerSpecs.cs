@@ -32,15 +32,16 @@ namespace DasPad.Specs.YangshunSpecs.DpSpecs
      */
 
     public static int MOD = 1000000007;
+
     public int KnightDialer(int input)
     {
       //int MOD = 1_000_000_007;
       var positions = GetNextPositions();
       var numbers = 0;
       var dp = new Dictionary<(int, int), int>();
-      for(var i=0; i<=9; i++)
+      for (var i = 0; i <= 9; i++)
       {
-        numbers = ( numbers + KnightDialerHelper(input, positions, i, dp)) % MOD;
+        numbers = (numbers + KnightDialerHelper(input, positions, i, dp)) % MOD;
       }
       return numbers;
     }
@@ -67,9 +68,9 @@ namespace DasPad.Specs.YangshunSpecs.DpSpecs
      * T(P, N) = Sum(T(p, N-1))
      */
 
-    private int KnightDialerHelper(int input, Dictionary<int, IEnumerable<int>> nextPositions,  int number, Dictionary<(int, int), int> dp)
+    private int KnightDialerHelper(int input, Dictionary<int, IEnumerable<int>> nextPositions, int number, Dictionary<(int, int), int> dp)
     {
-      if(input <= 0)
+      if (input <= 0)
       {
         return 0;
       }
@@ -79,12 +80,12 @@ namespace DasPad.Specs.YangshunSpecs.DpSpecs
       }
       else
       {
-        if(dp.ContainsKey((number, input)))
+        if (dp.ContainsKey((number, input)))
         {
           return dp[(number, input)];
         }
         var childSum = 0;
-        foreach(var position in nextPositions[number])
+        foreach (var position in nextPositions[number])
         {
           childSum = (childSum + KnightDialerHelper(input - 1, nextPositions, position, dp)) % MOD;
         }

@@ -1,5 +1,4 @@
-﻿using System;
-using Xunit;
+﻿using Xunit;
 using static DasPad.Specs.Utils;
 
 namespace DasPad.Specs.YangshunSpecs.ArraysSpecs
@@ -26,7 +25,7 @@ namespace DasPad.Specs.YangshunSpecs.ArraysSpecs
       Output: 0
      */
 
-      //Binary Search
+    //Binary Search
     public int FindMin(int[] nums)
     {
       int low = 0;

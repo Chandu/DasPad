@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using DasPad.Specs.Models;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace DasPad.Specs.LeetCodeCollectionsSpecs.EasySpecs.TreesSpecs

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using DasPad.Specs.Models;
+using System.Collections.Generic;
 using System.Linq;
 using Xunit;
 
@@ -6,18 +7,6 @@ namespace DasPad.Specs.LeetCodeSpecs
 {
   public class BinaryTreeLevelAverageSpecs
   {
-    public class TreeNode
-    {
-      public int val;
-      public TreeNode left;
-      public TreeNode right;
-
-      public TreeNode(int x)
-      {
-        val = x;
-      }
-    }
-
     public IList<double> AverageOfLevels(TreeNode root)
     {
       if (root == null)
@@ -61,7 +50,15 @@ namespace DasPad.Specs.LeetCodeSpecs
       return toReturn;
     }
 
-    public static string ArrayToString<T>(T[] arr)    {      var toReturn = "";      for (var i = 0; i < arr.Length; i++)      {        toReturn += arr[i].ToString() + " ";      }      return toReturn;    }
+    public static string ArrayToString<T>(T[] arr)
+    {
+      var toReturn = "";
+      for (var i = 0; i < arr.Length; i++)
+      {
+        toReturn += arr[i].ToString() + " ";
+      }
+      return toReturn;
+    }
 
     [Fact]
     public void CanAverageOfLevels()

@@ -44,7 +44,7 @@ namespace DasPad.Specs.YangshunSpecs.DpSpecs
           memo[i] = -1;
         }
       }
-      return TribonacciHelper(n , memo);
+      return TribonacciHelper(n, memo);
     }
 
     public int TribonacciHelper(int n, int[] memo)

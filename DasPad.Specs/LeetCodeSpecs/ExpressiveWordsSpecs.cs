@@ -90,15 +90,14 @@ namespace DasPad.Specs.LeetCodeSpecs
           return false;
         }
         var occurDelta = sourceMap[i].Occurances - targetMap[i].Occurances;
-        if(occurDelta < 0)
+        if (occurDelta < 0)
         {
           return false;
         }
-        else if(occurDelta != 0 && sourceMap[i].Occurances < 3)
+        else if (occurDelta != 0 && sourceMap[i].Occurances < 3)
         {
           return false;
         }
-          
       }
       return true;
     }
@@ -107,7 +106,7 @@ namespace DasPad.Specs.LeetCodeSpecs
     public void CanExpressiveWords()
     {
       Assert.Equal(1, ExpressiveWords("heeellooo", new[] { "hello", "hi", "helo" }));
-      Assert.Equal(0, ExpressiveWords("aaa", new[] { "aaaa"}));
+      Assert.Equal(0, ExpressiveWords("aaa", new[] { "aaaa" }));
     }
   }
 }

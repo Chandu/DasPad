@@ -50,7 +50,6 @@ namespace DasPad.Specs.LeetCodeSpecs
       }
 
       return ans;
-
     }
 
     public int TotalFruitEx(params int[] tree)
