@@ -84,6 +84,11 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\ArraysSpecs\ValidSudokuSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\HouseRobberSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\MaximumSubArraySpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\GenerateParanthesesSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\LetterCombinationsOfAPhoneNumberSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\PermutationsSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\SubsetsSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\WordSearchSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\BinaryTreeInorderTraversalSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\LinkedListSpecs\IntersectionOfLinkedListsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\LinkedListSpecs\OddEvenLinkedListSpecs.cs" />
