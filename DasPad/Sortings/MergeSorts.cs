@@ -20,6 +20,7 @@ namespace DasPad.Sortings
           else
           {
             int temp = input[r];
+            //Revisit: Logic requires second look
             int rotateIndex = r;
             while (rotateIndex > l)
             {
