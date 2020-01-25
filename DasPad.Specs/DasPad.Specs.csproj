@@ -90,8 +90,13 @@
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\PermutationsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\SubsetsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\WordSearchSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\DynamicProgrammingSpecs\CoinChangeSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\DynamicProgrammingSpecs\JumpGameSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\DynamicProgrammingSpecs\LongestIncreasingSubsequenceSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\DynamicProgrammingSpecs\UniquePathsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\FindPeakElementSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\KthLargestElementInAnArraySpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\MeetingRoomsIISpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\MergeIntervalsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\SearchA2DMatrixIISpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\SearchForARangeSpecs.cs" />
