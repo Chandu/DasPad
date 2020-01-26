@@ -101,6 +101,11 @@
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\MathSpecs\HappyNumberSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\MathSpecs\PowXNSPecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\MathSpecs\SqrtSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\OthersSpecs\EvaluateReversePolishNotationSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\OthersSpecs\FindTheCelebritySpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\OthersSpecs\MajorityElementSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\OthersSpecs\SumOfTwoIntegersSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\OthersSpecs\TaskSchedulerSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\FindPeakElementSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\KthLargestElementInAnArraySpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\MeetingRoomsIISpecs.cs" />
