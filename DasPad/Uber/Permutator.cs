@@ -37,49 +37,5 @@ namespace DasPad.Uber
       string s = new string(charArray);
       return s;
     }
-
-    public class TreeNode
-    {
-      public TreeNode Left = null;
-      public TreeNode Right = null;
-      public Char Value;
-    }
-
-    public static TreeNode ToTreeNode(string input)
-    {
-      if (input.Length < 1)
-      {
-        return null;
-      }
-
-      TreeNode toReturn = null;
-      TreeNode curNode = null;
-
-      foreach (var s in input)
-      {
-        if (toReturn == null)
-        {
-          toReturn = new TreeNode
-          {
-            Value = s
-          };
-          curNode = toReturn;
-        }
-        else
-        {
-          curNode.Left = new TreeNode
-          {
-            Value = s
-          };
-          curNode = curNode.Left;
-        }
-      }
-      return toReturn;
-    }
-
-    public static void PermuteUsingTree(string input)
-    {
-      var node = ToTreeNode(input);
-    }
   }
 }

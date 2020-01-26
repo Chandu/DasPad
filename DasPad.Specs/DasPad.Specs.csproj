@@ -94,6 +94,13 @@
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\DynamicProgrammingSpecs\JumpGameSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\DynamicProgrammingSpecs\LongestIncreasingSubsequenceSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\DynamicProgrammingSpecs\UniquePathsSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\MathSpecs\DivideTwoIntegersSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\MathSpecs\ExcelSheetColumnNumberSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\MathSpecs\FactorialTrailingZeroesSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\MathSpecs\FractionToRecurringDecimalSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\MathSpecs\HappyNumberSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\MathSpecs\PowXNSPecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\MathSpecs\SqrtSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\FindPeakElementSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\KthLargestElementInAnArraySpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\SortSearchSpecs\MeetingRoomsIISpecs.cs" />
