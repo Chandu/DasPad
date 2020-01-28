@@ -8,6 +8,91 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.MediumSpecs.OthersSpecs
   public class MajorityElementSpecs
   {
     /*
+     * https://leetcode.com/problems/majority-element-ii/
+     * Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+
+        Note: The algorithm should run in linear time and in O(1) space.
+
+        Example 1:
+
+        Input: [3,2,3]
+        Output: [3]
+        Example 2:
+
+        Input: [1,1,1,3,3,2,2,2]
+        Output: [1,2]
+     */
+
+    //Trick:
+
+    public IList<int> MajorityElementII(int[] nums)
+    {
+      if (nums.Length == 1)
+      {
+        return nums;
+      }
+      var firstSeen = int.MaxValue;
+      var secondSeen = int.MaxValue;
+      var firstCount = 0;
+      var secondCount = 0;
+      for (var i = 0; i < nums.Length; i++)
+      {
+        if (firstSeen == nums[i])
+        {
+          firstCount++;
+        }
+        else if (secondSeen == nums[i])
+        {
+          secondCount++;
+        }
+        else if (firstCount == 0)
+        {
+          firstCount++;
+          firstSeen = nums[i];
+        }
+        else if (secondCount == 0)
+        {
+          secondCount++;
+          secondSeen = nums[i];
+        }
+        else
+        {
+          firstCount--;
+          secondCount--;
+        }
+      }
+
+      firstCount = 0;
+      secondCount = 0;
+      for (int i = 0; i < nums.Length; i++)
+      {
+        if (nums[i] == firstSeen)
+          firstCount++;
+        else if (nums[i] == secondSeen)
+          secondCount++;
+      }
+
+      /*
+      if (firstCount > nums.Length / 3)
+          return firstSeen;
+
+      if (secondCount > nums.Length / 3)
+          return secondSeen;
+
+      */
+      var toReturn = new List<int>();
+      if (firstSeen != int.MaxValue && firstCount > nums.Length / 3)
+      {
+        toReturn.Add(firstSeen);
+      }
+      if (secondSeen != int.MaxValue & secondCount > nums.Length / 3)
+      {
+        toReturn.Add(secondSeen);
+      }
+      return toReturn.ToArray();
+    }
+
+    /*
      * https://leetcode.com/explore/interview/card/top-interview-questions-medium/114/others/824/
      * Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
 

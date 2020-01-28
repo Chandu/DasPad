@@ -85,6 +85,17 @@
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\HouseRobberSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\DynamicProgrammingSpecs\MaximumSubArraySpecs.cs" />
     <Compile Include="Extensions\ForString.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\BasicCalculatorIISpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\ContainerWithMostWaterSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\FindDuplicateSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\FirstMissingPositiveSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\FourSumIISpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\GameOfLifeSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\LongestConsecutiveSequenceSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\LongestSubstringWithAtmostKDistinctCharactersSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\ProductOfArrayExceptSelfSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\SlidingWindowMaximumSpecs.cs" />
+    <Compile Include="LeetCodeCollectionsSpecs\HardSpecs\ArraysAndStringsSpecs\SpiralMatrixSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\GenerateParanthesesSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\LetterCombinationsOfAPhoneNumberSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\BacktrackingSpecs\PermutationsSpecs.cs" />
@@ -124,6 +135,8 @@
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\KthSmallestElementInABSTSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\NumberOfIslandsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\PopulatingNextRightPointersInEachNodeSpecs.cs" />
+    <Compile Include="LeetCodeSpecs\MaximumWidthOfBinaryTreeSpecs.cs" />
+    <Compile Include="MocksSpecs\DayOfTheWeekSpecs.cs" />
     <Compile Include="Models\ListNodeArrayExtensions.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\DeleteLinkedListNode.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\LinkedListCycleSpecs.cs" />
