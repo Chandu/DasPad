@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="AlgosSpecs\KmpAlgorithmSpecs.cs" />
     <Compile Include="CanarySpec.cs" />
+    <Compile Include="CustomSpecs\FindSquareRootSpecs.cs" />
     <Compile Include="GraphsSpecs\DijkstrasAlgorithmSpecs.cs" />
     <Compile Include="HackerRankSpecs\BinaryQueriesSpecs.cs" />
     <Compile Include="HackerRankSpecs\BitOperationsSpecs.cs" />
@@ -136,7 +137,20 @@
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\NumberOfIslandsSpecs.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\MediumSpecs\TreesAndGraphs\PopulatingNextRightPointersInEachNodeSpecs.cs" />
     <Compile Include="LeetCodeSpecs\MaximumWidthOfBinaryTreeSpecs.cs" />
+    <Compile Include="CustomSpecs\FindEqualOrGreaterSpecs.cs" />
+    <Compile Include="MocksSpecs\BinarySearchTreeIteratorSpecs.cs" />
+    <Compile Include="MocksSpecs\CanRewardStudentSpecs.cs" />
+    <Compile Include="MocksSpecs\CountSubstringsSpecs.cs" />
     <Compile Include="MocksSpecs\DayOfTheWeekSpecs.cs" />
+    <Compile Include="MocksSpecs\DivideNumberSpecs.cs" />
+    <Compile Include="MocksSpecs\EvaluateDivisionSpecs.cs" />
+    <Compile Include="MocksSpecs\FindAnagramsSpecs.cs" />
+    <Compile Include="MocksSpecs\IsBinaryTreeCompleteSpecs.cs" />
+    <Compile Include="MocksSpecs\LongestArithmeticSequenceSpecs.cs" />
+    <Compile Include="MocksSpecs\LruCacheSpecs.cs" />
+    <Compile Include="MocksSpecs\MaximumOfAbsoluteValueExpressionSpecs.cs" />
+    <Compile Include="MocksSpecs\PartitionEqualSubsetSumSpecs.cs" />
+    <Compile Include="MocksSpecs\TrieNodeSpecs.cs" />
     <Compile Include="Models\ListNodeArrayExtensions.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\DeleteLinkedListNode.cs" />
     <Compile Include="LeetCodeCollectionsSpecs\EasySpecs\LinkedListSpecs\LinkedListCycleSpecs.cs" />
@@ -230,6 +244,14 @@
     <Compile Include="LeetCodeSpecs\TotalFruitSpecs.cs" />
     <Compile Include="LeetCodeSpecs\InvalidTransactionsSpecs.cs" />
     <Compile Include="LeetCodeSpecs\VowelSpellcheckerSpecs.cs" />
+    <Compile Include="MsftSpecs\InterviewBitSpecs\GridUniquePathsSpecs.cs" />
+    <Compile Include="MsftSpecs\InterviewBitSpecs\HotelBookingsPossibleSpecs.cs" />
+    <Compile Include="MsftSpecs\InterviewBitSpecs\MaxDistanceSpecs.cs" />
+    <Compile Include="MsftSpecs\InterviewBitSpecs\NextDiagonalsSpecs.cs" />
+    <Compile Include="MsftSpecs\InterviewBitSpecs\NextPermutationSpecs.cs" />
+    <Compile Include="MsftSpecs\InterviewBitSpecs\SortedPermutationRankSpecs.cs" />
+    <Compile Include="MsftSpecs\InterviewBitSpecs\TrailingZeroesInFactorialSpecs.cs" />
+    <Compile Include="MsftSpecs\LeetCodeSpecs\KthLargestElementInAnArraySpecs.cs" />
     <Compile Include="SortingsSpecs\HeapSortSpecs.cs" />
     <Compile Include="Structures\Trie.cs" />
     <Compile Include="UberSpecs\MyQueueSpecs.cs" />

@@ -24,6 +24,13 @@ namespace DasPad.Specs.LeetCodeCollectionsSpecs.MediumSpecs.MathSpecs
     public int TrailingZeroes(int n)
     {
       return n == 0 ? 0 : n / 5 + TrailingZeroes(n / 5);
+
+      //var count = 0;
+      //for (var i = 5; n / i > 0; i *= 5)
+      //{
+      //  count += n / i;
+      //}
+      //return count;
     }
 
     [Theory]
